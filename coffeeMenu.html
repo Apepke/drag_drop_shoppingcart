@@ -1,0 +1,52 @@
+<!-- Name: Alex Pepke -->
+<!--App Descriotion: A web-based application that allows users to purchase coffee shop items-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coffee Shop</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="code.js"></script>
+  </head>
+  <body>
+    <div class="Display">
+      <h1>Coffee Shop</h1>
+      <p id="welcome"></p>
+    </div>
+    <div class="drinks">
+      <h2>Drinks</h2>
+      <ul id="drink">
+        <li>Hot Coffee $2.00</li>
+        <li>Iced Coffee $3.00</li>
+        <li>Hot Latte $2.00</li>
+        <li>Iced Latte $3.00</li>
+        <li>Orange Juice $1.00</li>
+        <li>Hot Chocolate $1.00</li>
+      </ul>
+    </div>
+    <div class="food">
+      <h2>Food</h2>
+      <ul id="food">
+        <li>Breakfast Sandwich $5.00</li>
+        <li>Doughnut $2.00</li>
+        <li>Banana $1.00</li>
+        <li>Cinnamon Roll $2.00</li>
+      </ul>
+    </div>
+    <h3>Cart</h3>
+    <ul id="cart"></ul>
+    <p id="total"></p>
+    <input id="submitButton" type="button" value="Submit Order" />
+    <input id="clearButton" type="button" value="Clear Order" />
+  </body>
+</html>
